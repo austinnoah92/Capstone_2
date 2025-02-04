@@ -153,7 +153,7 @@ For  cloud  deployment,  Kubernetes  manifests (deployment.yaml and  service.yam
 > ```bash
 > pipenv run python predict_loan_worthiness.py
 > ```
-> ![Test Running Cloud Deployment](https://tinyurl.com/5xpawyza)
+> [Test Running Cloud Deployment](https://tinyurl.com/5xpawyza)
 
 ## Dependency  and  Environment  Management
 
