@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loan-credit-predict-deployment
+  labels:
+    app: loan-credit-predict
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: loan-credit-predict
+  template:
+    metadata:
+      labels:
+        app: loan-credit-predict
+    spec:
+      containers:
+      - name: loan-credit-predict
+        image: austinenoah92/loan_credit_predict:latest
+        ports:
+        - containerPort: 9990
+        # Optionally, set resources and environment variables here
