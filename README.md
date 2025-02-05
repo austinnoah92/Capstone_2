@@ -239,13 +239,3 @@ The  project  is  modularized  as  follows:
 >```
 
 Use  the obtained  external IP  or  NodePort  to  test the  API.
-
-## License
-
-This  project  is  licensed  under  the  MIT  License.
-
-## Contact
-
-For  questions  or  feedback,  please  contact [Austine]  at [austinnoah92@gmail.com].
-
----
